@@ -592,3 +592,18 @@
     padding: 40px 6%;
   }
 }
+/* Responsive layout improvements */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
